@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+.navbar {
+    
+    background-color: white;
+    font-family: Arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    
+   
+    
+  }
+
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+ 
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #ff6839;
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+   
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 50px;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+  }
+  
+  
+  .dropdown-content a:hover {
+    color: #ff6839;
+  }
+  
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  a.active{
+      color:#ff6839
+  }
+  nav{
+    background-color: transparent;
+    font-family: Arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  nav.active{
+    background-color: white;
+    font-family: Arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+.logo2{
+  filter: grayscale(100%);
+  height: 40px;
+  margin-left:50px ;
+  margin-top: -5px;
+}
+.logo2:hover{
+  filter: none;
+  transition: 0.3s ease-out;
+
+}
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 7px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 35px;
+  width: auto;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  text-decoration: #ff6839;
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body {
+  background: linear-gradient(-45deg, #f1f1f1, #f1f1f1, #f1f1f1,#f1f1f1, #699eee, #a7d19f,#f0a657);
+  background-size: 400% 400%;
+  animation: gradient 23s ease infinite;
+  margin: 0px;
+  
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+#cart{
+  margin-left: 165px;
+  margin-top: 25px;
+}
+
+  
